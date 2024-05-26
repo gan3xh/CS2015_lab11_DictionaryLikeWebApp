@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dictionary</title>
+    <style>
+      body {
+        background: #100a1c;
+        background-image: radial-gradient(
+            50% 30% ellipse at center top,
+            #201e40 0%,
+            rgba(0, 0, 0, 0) 100%
+          ),
+          radial-gradient(
+            60% 50% ellipse at center bottom,
+            #261226 0%,
+            #100a1c 100%
+          );
+        background-attachment: fixed;
+        color: #6cacc5;
+      }
+      input[type="text"] {
+        margin-top: 250px;
+        padding: 8px 15px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-size: 80%;
+        text-align: center;
+      }
+
+      .cont {
+        padding: 5px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 200%;
+      }
+
+      input[type="submit"] {
+        margin-top: 100px;
+        font-size: 40px;
+        border: 3px solid black;
+        border-radius: 10px;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+      <form action="220103020_lab11.php" method="post">
+        <h1 style="font-size: 30px">Dictionary</h1>
+        <hr />
+        <br />
+        <input
+          type="text"
+          size="40px"
+          align-items="center"
+          name="txt"
+          placeholder="Search Word"
+          required
+        />
+        <br /><br />
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+  </body>
+</html>
