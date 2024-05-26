@@ -1,6 +1,11 @@
 # CS2015_lab11_DictionaryLikeWebApp
 This is a simple web-based dictionary application that allows users to look up the meanings of words and get additional information such as syllables, parts of speech, translations, and synonyms.
 
+# About
+
+This project is a lab assignment for the course Web Technology (CS2015) taught by Dr Navanath Saharia at the Indian Institute of Information Technology (IIIT), Manipur. It is designed to demonstrate the practical application of web development technologies like HTML, CSS, and PHP.
+
+
 ## Features
 
 - **Word Lookup:** Enter a word into the input field and submit to get its meaning.
@@ -14,11 +19,11 @@ This is a simple web-based dictionary application that allows users to look up t
 
 1. **Setup:**
     - Make sure you have a web server with PHP and MySQL installed.
-    - Import the provided MySQL database schema (`Dictionary.sql`) into your MySQL database.
+    - Import the provided MySQL database schema (`220103020_lab11.sql`) into your MySQL database.
     - Edit the database connection details in `220103020_LAB11.php` file (server, username, password, and database name).
 
 2. **Run the Application:**
-    - Place both HTML files (`index.html` and `dictionary.html`) along with the PHP file (`220103020_LAB11.php`) in your web server's directory.
+    - Place both HTML files (`index.html`) along with the PHP file (`220103020_LAB11.php`) in your web server's directory.
 
 3. **Access the Application:**
     - Open your web browser and navigate to the URL where you placed the files.
@@ -36,6 +41,5 @@ This is a simple web-based dictionary application that allows users to look up t
 ## File Structure
 
 - `index.html`: The main page of the dictionary application with the input form.
-- `dictionary.html`: The PHP script to handle word lookup and display results.
 - `220103020_LAB11.php`: PHP script to connect to the database and retrieve word information.
-- `Dictionary.sql`: SQL file containing the database schema.
+- `220103020_lab11.sql`: SQL file containing the database schema.
